@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="game-container" id="gameContainer">
+        <div class="instructions">
+            Preciona ESPACIO o CLICK para iniciar el juego
+        </div>
+        <div class="score" id="score">
+            HI 0000 0000
+        </div>
+        <div class="ground"></div>
+        <div class="dino" id="dino">
+            <div class="body"></div>
+            <div class="head"></div>
+            <div class="eye"></div>
+        </div>
+        <div class="cactus"></div>
+        <div class="cactus-small"></div>
+
+        <div class="game-over">
+            <h2>Juego Terminado</h2>
+            <p>Tu puntuacion fue: <span id="finalScore">0</span></p>
+            <button onclick="restartGame()">Reiniciar Juego</button>
+        </div>
+
+    </div>
+</body>
+</html>
